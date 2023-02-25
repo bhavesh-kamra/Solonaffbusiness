@@ -32,14 +32,16 @@
                         <button class="py-2 px-4 clr_red rounded-3 border-0 font_500 btn_hover btn_animation">Connect
                             Wallet</button>
                     </ul>
-                    <button class="d_max_block d-none font_700 fs_md py-2 px-4 bg_red border-0" onclick="shownav ()" id="shownav">
-                        Menu
-                    </button>
+                    
+                    <div class="menuicon d_max_block d-none" id="shownav" onclick="shownav ()">
+                        <div class="navline"></div>
+
+                    </div>
 
                 </nav>
         </header>
 
-    
+
         <div>
             <img class="w-100" src="./assets/images/png/hero-section-img.png" alt="">
         </div>
@@ -132,6 +134,7 @@
             </div>
 
         </section>
+        <!-- supplies -->
         <section class="bg_red py-4">
             <div class="container">
                 <div class="text-center">
@@ -163,14 +166,14 @@
         </section>
         <!-- timeline -->
         <section class="clr_drk_yellow py-5 position-relative">
-            <img class="position-absolute top-0 end-0 bottom-0 start-0 d-none d-xl-block w-100"
+            <img class="position-absolute top-0 end-0 bottom-0 start-0 d-none d-xl-block w-100 overflow-y-hidden"
                 src="./assets/images/png/burgers2.png" alt="">
             <div class="container">
                 <div class="text-center py-3">
                     <p class="clr_black font_700 fs_xxl">ROADMAP 1.0</p>
                 </div>
-                <div class="timeline py-5">
-                    <div class="containertimeline left">
+                <div class="timeline py- 5">
+                    <div class="containertimeline left pt-0 pb-5">
                         <div class="content">
                             <h2 class="font_700 fs_lg">Q4 2021</h2>
                             <p class="font_400 fs_lg">1. Launch SFFB <br>
@@ -178,7 +181,7 @@
                                 3. Apply for secondary marketplace listings<br></p>
                         </div>
                     </div>
-                    <div class="containertimeline right">
+                    <div class="containertimeline right pt-0 pb-5">
                         <div class="content">
                             <h2 class="font_700 fs_lg">Q1 2022</h2>
                             <p class="font_400 fs_lg">1. Charity Giveaway <br>
@@ -186,24 +189,25 @@
                                 3. Secure Partnerships<br></p>
                         </div>
                     </div>
-                    <div class="containertimeline left">
+                </div>
+                <div class="max_w mx_22">
+                    <div class="containertimeline left pt-0 pb-5">
                         <div class="content">
                             <h2 class="font_700 fs_lg">Q2 2022</h2>
                             <p class="font_400 fs_lg">1. SFFB Merch Release <br>
                                 2. Stay tune for <br></p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
+        <!-- team -->
         <section class="clr_light_yellow overflow-hidden">
             <div class="container">
                 <h2 class="font_700 text-center my-4">
                     Team
                 </h2>
-                <div class="row">
+                <div class="row py-4">
                     <div class="col-12 m-auto text-center col-sm-6 col-md-4 col-xl-3 scale">
                         <div>
                             <img class="mb-3 w-100" src="./assets/images/png/sec4_img1.png" alt="">
@@ -371,10 +375,12 @@
                     <img class="w-100 mb-5" src="./assets/images/png/footerlogo.png" alt="pagelogo">
                 </div>
                 <div class="text-center mb-5">
-                    <img src="./assets/images/png/discord-logo.png" alt="discord-logo">
-                    <img class="ms-5" src="./assets/images/png/twitter-logo.png" alt="twitter-logo">
+                    <a href=""><img src="./assets/images/png/discord-logo.png" alt="discord-logo"></a>
+                    <a href=""><img class="ms-5" src="./assets/images/png/twitter-logo.png" alt="twitter-logo"></a>
                 </div>
-                <p class="font_400 fs_sm">@Copyright 2021</p>
+                <a class="clr_black" href="">
+                    <p class="font_400 fs_sm">@Copyright 2021</p>
+                </a>
             </div>
 
 
